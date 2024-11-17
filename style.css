@@ -1,0 +1,160 @@
+body
+{
+    margin: 0px;
+}
+.wrapper
+{
+    height: 920px;
+    width: 1470px;
+}
+header
+{
+    background-color: black;
+    height: 160px;
+    width: 1450px;
+    padding: 10px;
+}
+section .sec_index
+{
+    height: 740px;
+    width: 1470px;
+    background-image: url('library.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    background-color: black;
+    height: 190px;
+    width: 1470px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper li a:hover
+{
+    color: yellow;
+}
+.book
+{
+    padding-left: 20px;
+    float: left;
+    height: 150px;
+}
+.box
+{
+    height: 300px;
+    width: 450px;
+    background-color: #0a0306;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    padding-top: 40px;
+}
+
+/*-----------------student-login-----------------*/
+section .sec_student
+{
+    height: 800px;
+    width: 1470px;
+    display: flex;
+    background-image: url('login.png');
+    justify-content: center;
+    align-items: center;
+}
+.box1
+{
+    height: 330px;
+    width: 420px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    padding-top: 20px;
+    border-radius: 20px 20px;
+}
+form .login
+{
+    margin: auto 40px;
+}
+input
+{
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    padding-left: 8px;
+    color: white;
+    background-color: black;
+
+}
+button
+{
+    height: 47px;
+    width: 120px;
+    background-color: darkred;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+button:hover
+{
+    color: yellow;
+}
+section p a:hover
+{
+    color: yellow;
+}
+
+/*-----------------student-signup-----------------*/
+.sec_sign
+{
+    height: 800px;
+    width: 1470px;
+    background-image: url('login.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2
+{
+    height: 650px;
+    width: 420px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    padding-top: 20px;
+    border-radius: 20px 20px;
+}
+
+/*-----------------feedback-----------------*/
+.box3
+{
+    padding: 10px;
+    margin: 150px auto;
+    width: 900px;
+    height: 300px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 20px 20px;
+    text-align: center;
+}
+
+/*-----------------icon-----------------*/
+.image
+{
+    margin-left: 70px;
+}
+.image img
+{
+    padding: 10px;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
